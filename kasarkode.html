@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to Kerala Tourism </title>
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="destination.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- navbar starting -->
+    <nav class="navbar navbar-expand-lg navbar-light bg text-primary">
+      <!-- logo start -->
+     <div class="col-sm-4">
+       <div class="logo"><img src="https://www.keralatourism.org/images/kt/kerala-tourism-title.png?d=18122017" alt="Kerala Tourism"></div>
+     </div>
+
+<!-- logo end -->
+     
+       <div class="collapse navbar-collapse " id="navbarSupportedContent">
+         <a href="http://www.youtube.com/keralatourism"><i class="fa fa-youtube  i1" style="font-size:25px;color:red"></i></a>
+         <a href="https://www.facebook.com/keralatourismofficial"><i class="fa fa-facebook i1" style="font-size:30px;color: #3b5998"></i></a>
+<a href="http://twitter.com/keralatourism"><i class="fa fa-twitter i1" style="font-size:30px;color: #00acee"></i></a>
+<a href="https://www.instagram.com/keralatourism/?hl=en"><i class="fa fa-instagram i1" style="font-size:30px;color:#dd2a7b"></i></a>
+<a href="https://www.keralatourism.org/video-clips/whatsapp"><i class="fa fa-whatsapp i1" style="font-size:30px;color:green"></i></a>
+         
+         
+         <ul class="navbar-nav mr-auto">
+
+           
+           <li class="nav-item">
+             <a class="color1" href="index.html">Home  <span class="sr-only">(current)</span></a>
+           </li>
+          
+           <li class="nav-item dropdown ">
+             <a class="color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              User
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="signup.html">Sign up</a>
+               <a class="dropdown-item" href="login.html">Login</a>
+               
+           </li>
+           <li class="nav-item">
+             <a class="color1  " href="district.html">Districts</a>
+           </li>
+         </ul>
+         
+
+         <form class="form-inline my-2 my-lg-0">
+           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+         </form>
+       </div>
+  
+     </nav>
+     <!-- navbar end -->
+
+
+         
+          <!-- image gallery start -->
+         
+          <div class="dec">
+            <h2 class="ce">Top Destinations In Kasaragod </h2>
+     <div class="arr"> 
+      
+        <div class="gallery">
+        
+            <img src="data:image/jpeg;base64,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" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Bekal Fort
+
+
+            </div>
+            </div>
+
+            <div class="gallery">
+             
+                <img src="https://lh5.googleusercontent.com/p/AF1QipNu6tSrHfufPVxphAQ4pPOL89jhusSII_TBpVXe=w296-h202-n-k-no" alt="Forest" width="900" height="600">
+                </a>
+                <div class="desc">Ananthapura Lake Temple
+
+
+
+                </div>
+                </div>
+
+                <div class="gallery">
+              
+                    <img src="https://lh5.googleusercontent.com/proxy/jz2aGLgLQt_UULoZiOYbTtnW9SFzrZ8tVcAD0EWUsj4h_j3GcAMddL-CyGmd2KduC7VBnDyd93MUO3vE92uYRdQpNy-qr1OKXRwaBmIoLHUu9U9RYPqGCifmYbSZNhB6m_mOv7VmGQKGMwqmP49yzen5Rj9idhWYoKs=w296-h202-n-k-no" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Ranipuram
+
+
+
+                    </div>
+                    </div>
+
+                    <div class="gallery">
+                     
+                        <img src="https://lh5.googleusercontent.com/p/AF1QipNuVby6ymuSM2GhXZQBBNjHTtjJ1C1LM5QStb6-=w296-h202-n-k-no" alt="Mountains" width="600" height="400">
+                        </a>
+                        <div class="desc">Chandragiri Fort, Kerala
+
+
+
+                        
+                        </div>
+                        </div>
+
+
+</div>
+
+<div class="arr"> 
+    <div class="gallery">
+     
+        <img src="https://lh3.googleusercontent.com/proxy/3DMzKHJ8BYtW-ONEtWueE5UCLy2KECXlmQrtkM7QC55Xi96-UnhIT_sRvmgYDvZeK6AIGAYUrPJBD0WnNazCuHkEEX0A8EIereDKXSX2Up8GgGevCy6RMxTxtoOp29Lc1n1Ob9sIv5uArP7gpMnce50nVM5l6oEpE8k=w296-h202-n-k-no" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Valiyaparamba
+
+
+        </div>
+        </div>
+  
+        <div class="gallery">
+        
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMmw-7ukqiu1YunLDb5Qw5bzFqwLMgBAZZcZ6Ro=w296-h202-n-k-no" alt="Forest" width="900" height="600">
+            </a>
+            <div class="desc">Madhur Temple
+
+
+
+            </div>
+            </div>
+  
+            <div class="gallery">
+          
+                <img src="https://lh5.googleusercontent.com/p/AF1QipNkOYnod4uugUf6fNdgSAnhQmByY-yGc0aLQJ-4=w296-h202-n-k-no" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Hosdurg Fort
+
+
+
+                </div>
+                </div>
+  
+                <div class="gallery">
+           
+                    <img src="https://lh3.googleusercontent.com/proxy/PqvkqIjz_txxSGvAh4kydW1mpUtVVc3f9kDRWwLDi8Mably1ctXL8EpfrfjaLrA3OXKul43saUHct24di5qw4C--svgjGCc4EpA70ZR6bkxGL2Yp8V3DXrMRaHZFDjiHX24xP9nd4UFLJmFtLo0KhnSvTvicVp38h6Y=w296-h202-n-k-no" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Ranipuram Peak
+
+
+                    
+                    </div>
+                    </div>  <button class="butt "> </button>
+
+
+</div>    
+
+</div>
+
+
+<div class="arr"> 
+  <div class="gallery">
+ 
+      <img src="https://lh5.googleusercontent.com/p/AF1QipNkgbWxurhUGgFxqSHJtfCs0DxXxvU_Z9Ot9LzS=w296-h202-n-k-no" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Kottancheri Hill Station Malom
+
+
+
+      </div>
+      </div>
+
+      <div class="gallery">
+      
+          <img src="https://lh5.googleusercontent.com/p/AF1QipOy1Zh4EoGNltyy3dRK5Ia3k3Mzon_LCliMD2cM=w296-h202-n-k-no" alt="Forest" width="900" height="600">
+          </a>
+          <div class="desc">Kareem Forest Park
+
+
+
+          </div>
+          </div>
+
+          <div class="gallery">
+        
+              <img src="https://lh6.googleusercontent.com/proxy/oSzr_ahwYP0gQRs5Fl8bAaTWRM07-CszhjULD3G9YSYlfQ4DAeAwFImnDgvv0Ys-KOKA27GbyenkHo8ZbWcCKFja7fjIuSO_jE02-1vVn8zHoeipZT5Trut8fIl-u2_pPqRdOPeo9DcgTUUoCaydbmtPBWstsM3Md2k=w296-h202-n-k-no" alt="Northern Lights" width="600" height="400">
+              </a>
+              <div class="desc">Bekal Beach
+
+
+
+              </div>
+              </div>
+
+              <div class="gallery">
+         
+                  <img src="https://lh5.googleusercontent.com/p/AF1QipMXl9YypAJYRTOpYkKUA4qikLJPsf2WafuRvDDk=w296-h202-n-k-no" alt="Mountains" width="600" height="400">
+                  </a>
+                  <div class="desc">Kasaragod Beach
+
+
+                  
+                  
+                  </div>
+                  </div>  <button class="butt "> </button>
+
+
+</div>    
+
+</div>
+          <!-- image gallery end -->
+</body>
+<footer class="hh">
+  <h6 class="h">Toll free No: 1-800-425-4747 (within India only)</h6> 
+  <h6 class="h"> Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</h6>
+ <h6 class="h"> Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.</h6>
+ <h6 class="h">All rights reserved © Kerala Tourism 2017. Copyright | Terms of Use | Contact Us.</h6>
+ <h6 class="h">Developed & Maintained by ICT Accademy.</h6>
+ 
+  
+  </footer>
+</html>

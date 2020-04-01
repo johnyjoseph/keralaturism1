@@ -1,0 +1,25 @@
+.align{
+    margin: 0px 0px 100px 500px;
+}
+.bl{
+    margin: 10px;
+    padding: 10px;
+}
+.mar{
+    
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+.hhh{
+   margin-top: 30px;
+   background-color: darkblue;
+   margin-left: 40px;
+   margin-right: 40px;
+    color: white;
+    padding-left: 500px;
+    
+}
+p{
+    margin: 80px;
+}
