@@ -75,20 +75,22 @@
 <h5>Welcome to kerala god's on contry</h5>    
 <p>You can not have account <a href="signup.html" style="color: blue;">Sign up</a>.</p>
 <div>
-<form action="">
+<form action="" onsubmit="return validation()">
 
 
 <label for="email">Email id</label><br>
-<input type="text"><br>
+<input type="text" id="email">
+<label for="error" id="error"></label><br>
 
-<label for="password">password</label><br>
-<input type="password"><br>
+ <label for="password">password</label><br> 
+ <input type="password" id="password"><br>
 
 <label>
   <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
 </label>
+<button type="submit" class="btn btn-primary lg">Login</button>
 
-<input type="submit" value="Login" class="btn btn-primary lg">
+<!-- <input type="submit" value="Login" class="btn btn-primary lg"> -->
 
 </form> 
 </div>
@@ -96,7 +98,7 @@
      </div>
 
    </div>
-  
+  <script src="login.js"></script>
 </body>
 
 <footer class="hh">
