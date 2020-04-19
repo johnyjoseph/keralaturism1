@@ -27,7 +27,7 @@
 
 <!-- logo end -->
      
-       <div class="collapse navbar-collapse " id="navbarSupportedContent">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <a href="http://www.youtube.com/keralatourism"><i class="fa fa-youtube  i1" style="font-size:30px;color:red"></i></a>
          <a href="https://www.facebook.com/keralatourismofficial"><i class="fa fa-facebook i1" style="font-size:30px;color: #3b5998"></i></a>
 <a href="http://twitter.com/keralatourism"><i class="fa fa-twitter i1" style="font-size:30px;color: #00acee"></i></a>
@@ -79,13 +79,26 @@
         <input type="text" placeholder=" Second Name " name="Secondname" required>
 
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder=" Email" name="email" required>
+        <input type="text" placeholder=" Email" name="email" id="email" >
+        <label for="email" id="emailerror"></label><br>
 
         <label for="phoneno"><b>Phone no</b></label>
-        <input type="text" placeholder=" Phone no " name="phoneno" required>
+        <input type="number"  placeholder=" Phone no " name="phoneno" id="phoneno" required  >
+        <label for="number" id="numbererror" ></label><br>
+
+
 
         <label for="password"><b>Password</b></label>
-        <input type="text" placeholder=" password" name="password" required>
+        <input type="password" placeholder=" password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  >
+       <small>Password contain 'Qa@2W@5#'</small><br>
+        <span  class="fa  fa-eye field-icon " onclick="myFunction()" >show password</span>
+        <label for="password" id="passworderror"></label><br>
+
+        <label for="password"><b>Conform password</b></label>
+        <input type="password" placeholder=" Conform password" name="password" id="password2"  required >
+        <label for="password" id="passworderror2"></label><br>
+
+
 
         <label for="Country"><b>Country</b></label>
         <input type="text" placeholder=" Country " name="Country" required>
@@ -104,6 +117,10 @@
         
     </form>
     <!-- form end -->
+    <script src="signup1.js">
+
+
+    </script>
 </body>
 
 <footer class="hh">
