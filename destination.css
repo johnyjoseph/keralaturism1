@@ -1,0 +1,24 @@
+.cen1{
+    text-align: center;
+    margin-top: 20px;
+    color: darkblue;
+}
+.img1{
+    margin-left: 300px;
+}
+.p1{
+    margin: 30px 50px 0px 50px;
+}
+body{
+    background-color: lightseagreen;
+}
+.h{
+    text-align: center;
+    color: white;
+}
+footer{
+     background-color: rgb(145, 145, 202); 
+}
+.hh{
+    padding: 10px 0px 10px 0px;
+}
